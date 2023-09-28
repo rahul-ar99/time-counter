@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#counter{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 30px;
+    background-color: burlywood;
+}
+
+#counter h1{
+    font-size: 60px;
+}
+#counter h2{
+    font-size: 60px;
+}
+#counter ul{
+    display: flex;
+    list-style: none;
+    
+}
+#counter .items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+} */
+#counter .items input{
+    width: 90%;
+    height: 30px;
+    -moz-appearance: textfield;
+    padding-left: 10px;
+}
+
+#counter .items #start{
+    width: 94%;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#counter .items #start:hover{
+    background-color: aliceblue;
+}
+#counter .items #start:active{
+    background-color: blanchedalmond;
+}
+#counter ul li{
+    padding: 10px;
+}
+#counter ul li button{
+    padding: 5px 10px;
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#counter ul li button:hover{
+    background-color: aliceblue;
+}
+#counter ul li button:active{
+    background-color: blanchedalmond;
+}
+
+
+
+
